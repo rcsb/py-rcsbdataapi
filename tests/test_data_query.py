@@ -1,6 +1,6 @@
 ##
-# File:    testquery.py
-# Author:
+# File:    test_data_query.py
+# Author:  Ivana Truong
 # Date:
 # Version:
 #

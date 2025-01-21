@@ -1,6 +1,6 @@
 ##
-# File:    testschema.py
-# Author:
+# File:    test_data_schema.py
+# Author:  Ivana Truong
 # Date:
 # Version:
 #

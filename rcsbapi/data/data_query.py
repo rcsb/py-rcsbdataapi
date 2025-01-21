@@ -164,7 +164,6 @@ class DataQuery:
         if len(self._input_ids) > batch_size:
             batched_ids = self._batch_ids(batch_size)
             response_json: Dict[str, Any] = {}
-            # count = 0
             for id_batch in batched_ids:
                 query = re.sub(r"\[([^]]+)\]", f"{id_batch}".replace("'", '"'), self._query)
                 part_response = requests.post(
